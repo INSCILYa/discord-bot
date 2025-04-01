@@ -1,8 +1,10 @@
 import discord
 import random
 import asyncio
+import os
 
-TOKEN = "MTM1NjYxODI3NDA4MjkxODUyMw.GJMP3P.Y4cF2twlsaQwf8kCjlzYVGX1sASbHlit0r2AVk"
+# Get the token from the environment variable
+TOKEN = os.getenv("MTM1NjYxODI3NDA4MjkxODUyMw.GFeCGB.NATRxJitbhjrSWu1adnT0JzdNuMuupnTwG-T18")  # Make sure this environment variable is set correctly
 CHANNEL_ID = 1356620660947943549
 
 intents = discord.Intents.default()
@@ -21,7 +23,7 @@ async def update_key():
     global current_key
     await client.wait_until_ready()
     
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(1356620660947943549)
     
     while True:
         new_key = generate_key()
