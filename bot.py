@@ -2,7 +2,7 @@ import discord
 import random
 import asyncio
 
-TOKEN = "MTM1NjYxODI3NDA4MjkxODUyMw.G1X1dZ.Vzpnv-l8TXuatf5yOx6pnh4d0wmm2rroxVfLcs"
+TOKEN = "MTM1NjYxODI3NDA4MjkxODUyMw.Gb-cSC.u2c0wiAGo3UWNjj8hWSRYT1frb6YtPGr79QRzA"
 CHANNEL_ID = 1356620660947943549
 
 intents = discord.Intents.default()
